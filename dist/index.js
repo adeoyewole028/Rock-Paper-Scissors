@@ -8,7 +8,7 @@ computerScore = 0;
 let value = "";
 
 let playAgain = document.createElement("button");
-playAgain.setAttribute("class", "border p-5 bg-green-600");
+playAgain.setAttribute("class", "border p-5");
 playAgain.innerText = "Play Again?";
 playAgain.addEventListener("click", () => {
   location.reload();
