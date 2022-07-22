@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>RPS</title>
+  </head>
+  <body>
+    <div class="flex flex-col justify-center">
+      <div class="flex justify-center flex-col space-y-10 mt-8"><h1 class="text-3xl self-center">Let's Play Rock, Paper, Scissors</h1>
+      <p class="self-center">Make your selection</p></div>
+      
+      <div class="flex justify-around mt-8">
+        <div>
+          <button id="btn1" class="p-5 border bg-stone-500 text-white" value="rock">Rock</button>
+        </div>
+        <div id="paper">
+          <button id="btn2" value="paper" class="p-5 border bg-purple-300">Paper</button>
+        </div>
+        <div id="scissors">
+          <button id="btn3" value="scissors" class="p-5 border bg-rose-700 text-white">
+            Scissors
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="score" class="flex justify-center mt-9"></div>
+    <div id="play-again" class="flex justify-center mt-9 text-white"></div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
