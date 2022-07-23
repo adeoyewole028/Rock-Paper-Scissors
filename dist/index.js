@@ -71,11 +71,11 @@ function play(playerSelection, computerSelection) {
 
   rockEl.innerHTML = ` <div class="flex flex-col text-center space-y-6">
   <div id="player-choice">${playerChoice}</div>
-  <div id="player-score">Player: ${playerScore}</div>
+  <div id="player-score">You: ${playerScore}</div>
 </div>
 <div class="flex flex-col text-center space-y-6">
   <div id="computer-choice">${computerChoice}</div>
-  <div id="computer-score">computer: ${computerScore}</div>
+  <div id="computer-score">Computer: ${computerScore}</div>
 </div>`;
 
   getScores();
